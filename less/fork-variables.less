@@ -459,7 +459,7 @@ textarea {
 // Gallery Images
 // Use Background-image Method
 .gallery__image-link {
-    display: block;
+    display: block!important;
     height: 280px;
     background-repeat: no-repeat;
     background-position: center;
@@ -647,6 +647,9 @@ textarea {
         background-color: lighten(@color__secondary, 15%);
         &:nth-child(2n) {
             background-color: lighten(@color__secondary, 10%);
+        }
+        @media @tablet {
+            width: 100%;
         }
     }
 }
