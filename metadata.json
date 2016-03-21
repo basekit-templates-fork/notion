@@ -6,6 +6,10 @@
     "pageTypes": ["home", "default", "blogpostlist", "blogpost"],
     "screenshot":"screenshot.jpg",
      "images":[
+        "images/image--1.jpg",
+        "images/slideshow/slideshow-image-1.jpg",
+        "images/slideshow/slideshow-image--2.jpg",
+        "images/slideshow/slideshow-image--3.jpg",
         "images/gallery/gallery-image--1.jpg",
         "images/gallery/gallery-image--2.jpg",
         "images/gallery/gallery-image--3.jpg",
