@@ -648,6 +648,24 @@ textarea {
         &:nth-child(2n) {
             background-color: lighten(@color__secondary, 10%);
         }
+        @media @bp-global-small {
+            width: 100%;
+        }
+    }
+}
+
+.columns-four-first,
+.columns-four-second,
+.columns-four-third,
+.columns-four-fourth,
+.columns-three-left,
+.columns-three-right,
+.columns-three-middle {
+    .post-article {
+        background-color: inherit;
+    }
+    .post-content {
+        padding: inherit;
     }
 }
 
